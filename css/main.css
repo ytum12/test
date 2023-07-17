@@ -1,0 +1,148 @@
+.texts {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 150%;
+    margin-bottom: 50px;
+}
+.pic {
+text-align: center; /* Выравнивания картинки по центру в html */ 
+}
+.bod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+.lich {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+.o {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
+td {
+    padding: 0 30px;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+.button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    font-size: 100%;
+}
+.button:hover { background-color: #D3D3D3; }
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.logout {
+    color: #b7625c;
+}
+.avto{
+    margin-top: 200px;
+}
+.vhod{
+    padding: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn-15 {
+  color: #fff;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+   background: #e0e5ec;
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #000;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+.btn-11 {
+  color: #fff;
+  z-index: 1;
+  margin-left: 130px;
+}
+.btn-11:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+   background: #e0e5ec;
+  transition: all 0.3s ease;
+}
+.btn-11:hover {
+  color: #000;
+}
+.btn-11:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-11:active {
+  top: 2px;
+}
